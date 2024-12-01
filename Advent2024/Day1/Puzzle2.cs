@@ -1,8 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace AdventOfCode.Day1;
+namespace Advent2024.Day1;
 
-internal partial class Puzzle2
+public partial class Puzzle2
 {
     [GeneratedRegex("\\s")]
     private static partial Regex MatchWhitespace();
