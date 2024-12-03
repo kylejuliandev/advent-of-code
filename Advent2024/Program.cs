@@ -1,12 +1,12 @@
-﻿using Advent2024.Day2;
+﻿using Advent2024.Day3;
 
 Console.WriteLine("Enter your Puzzle input. Press CTRL+Z when complete");
 
 using var sr = new StreamReader(Console.OpenStandardInput(), Console.InputEncoding);
 var consoleInput = sr.ReadToEnd();
-var input = consoleInput.Trim().Split(Environment.NewLine);
+var input = consoleInput.Trim();
 
-var puzzle1 = new Puzzle1();
-var numSafeReports = puzzle1.GetNumberOfSafeReportsWithDampeners(input);
+var puzzle1 = new Puzzle();
+var result = puzzle1.GetProgramResultWithConditions(input);
 
-Console.WriteLine("Number of safe reports: {0}", numSafeReports);
+Console.WriteLine("Program result: {0}", result);
