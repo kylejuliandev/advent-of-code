@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{286200E3-3794-4DB3-8662-8574007159A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent2024.Tests", "Tests\Advent2024.Tests\Advent2024.Tests.csproj", "{63BE77C9-3FFC-4B32-B21F-E91CB110200A}"
 EndProject
@@ -41,7 +41,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{63BE77C9-3FFC-4B32-B21F-E91CB110200A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{63BE77C9-3FFC-4B32-B21F-E91CB110200A} = {286200E3-3794-4DB3-8662-8574007159A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7105DEA-D65C-4C44-9D92-6937417DBCC8}
