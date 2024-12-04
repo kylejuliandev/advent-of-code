@@ -10,3 +10,7 @@ var puzzle = new Puzzle();
 var result = puzzle.NumberOfXmasWords(input);
 
 Console.WriteLine("Program result: {0}", result);
+
+var result2 = puzzle.NumberOfX_MASWords(input);
+
+Console.WriteLine("Program result 2: {0}", result2);
